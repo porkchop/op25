@@ -1,0 +1,9 @@
+works to get the NAC:
+./rx.py --args 'rtl' -N 'LNA:47' -S 2500000 -x 2 -f 143.085e6 -o 17e3 -q 2
+NAC 0x867
+
+works to listen
+./rx.py --args 'rtl' -N 'LNA:47' -S 2500000 -x 2 -o 17e3 -q 0 -T trunk.tsv -V -2 -U 2> stderr-stream0.2
+
+works to listen and get web UI
+./rx.py --args 'rtl' -N 'LNA:47' -S 2500000 -x 2 -o 17e3 -q 0 -T trunk.tsv -V -2 -U -l http:0.0.0.0:8088
