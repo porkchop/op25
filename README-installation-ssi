@@ -4,6 +4,11 @@ This version of the op25 software has a few helper scripts to get Salt Spring Is
 and running with the local trunk channels quick and easily. Otherwise this code is exactly
 the same as the boatbod fork
 
+Pre-configured Trunk Site
+-------------------------
+The trunk system frequency this is configured for can be found here https://www.radioreference.com/apps/db/?siteId=36541
+The talkgroups enabled for it can be found here: https://www.radioreference.com/apps/db/?sid=7846
+
 1. Install op25 (Same as the main install README)
 ---------------
 sudo apt-get install git
