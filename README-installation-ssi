@@ -1,0 +1,28 @@
+How to Install OP25 For Salt Springers
+----------------------------------------------------------------------
+This version of the op25 software has a few helper scripts to get Salt Spring Islanders up
+and running with the local trunk channels quick and easily. Otherwise this code is exactly
+the same as the boatbod fork
+
+1. Install op25 (Same as the main install README)
+---------------
+sudo apt-get install git
+cd ~
+git clone https://github.com/boatbod/op25
+cd op25
+./install.sh
+
+2. Configure op25
+-----------------
+Install the helper aliases for your bash environment
+./install-aliases.sh
+
+Source the aliases into your current shell
+. ~/.bashrc
+
+3. Run op25
+-----------
+op25
+
+You can also navigate to the web UI at http://127.0.0.1:8088
+You should also be able to hear conversations in the talk groups
