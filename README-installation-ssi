@@ -13,7 +13,7 @@ The talkgroups enabled for it can be found here: https://www.radioreference.com/
 ---------------
 sudo apt-get install git
 cd ~
-git clone https://github.com/boatbod/op25
+git clone https://github.com/porkchop/op25.git
 cd op25
 ./install.sh
 
